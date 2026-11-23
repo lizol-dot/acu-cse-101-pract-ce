@@ -12,7 +12,9 @@
 # Calculate the total cost and print it labeled "Total cost:".
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 1 below:
-
+a_notebook = 20
+total_cost = a_notebook*3
+print(f"Total cost:{total_cost} ")
 
 # ------------------------------------------------------------------------------
 # Challenge 2: Minutes to Seconds
@@ -20,11 +22,14 @@
 # Calculate the break's length in seconds and print it labeled "Seconds:".
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 2 below:
-
-
+break_length_mins = 5
+break_length_secs = break_length_mins*60
+print(f"Length: {break_length_secs} {"seconds"}")
 # ------------------------------------------------------------------------------
 # Challenge 3: Simple Greeting
 # Store "Ada" in a name variable.
 # Use the variable to print "Hello, Ada!".
 # ------------------------------------------------------------------------------
 # TODO: Write your code for Challenge 3 below:
+name = "link"
+print(f"Hello, {name}!")
